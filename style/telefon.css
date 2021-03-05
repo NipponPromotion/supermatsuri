@@ -1,0 +1,1133 @@
+@charset "utf-8";
+/* CSS Document */
+/*Telefonlar için*/
+@media (max-width:767px) {
+  .toplogo {
+    width: 50%;
+    float: left;
+    margin-left: 0;
+  }
+  .topmenu {
+    width: 100%;
+    float: left;
+  }
+  .topbosluk {
+    display: none;
+  }
+  .mobilmenucollapse {
+    background-color: #000;
+    color: #FFF !important;
+    padding: 1%;
+  }
+  .menuButton {
+    margin-left: 2%;
+  }
+  .icerik.top {
+    color: #FFF;
+     background-image: url(../images/NPPWorld-HeaderBlack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .iceriktopbaslik {
+    margin-left: 10%;
+    font-family: 'Gugi', cursive;
+    font-weight: 700;
+    font-size: 13vw
+  }
+  .iceriktopyazi {
+    margin-left: 10%;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    width: 60%;
+  }
+  .iceriktopbutton {
+    margin-left: 10%;
+    margin-top: 100px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4vw
+  }
+  .ikinciresimler {
+    width: 100%;
+    float: none;
+    overflow: hidden;
+    height: 60vh;
+	  position: relative;
+  }
+  .videobaslik {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #FFF !important;
+    font-size: 5vw;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  .videobutton {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 3vw;
+    padding: 10px;
+    font-weight: 700;
+    transition: all ease 1s;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .videobutton.tw {
+    background-color: #874ff6;
+    color: #FFF !important;
+  }
+  .videobutton.yt {
+    background-color: #FF0000;
+    color: #FFF !important;
+  }
+  .videobutton.fb {
+    background-color: #1877f2;
+    color: #FFF !important;
+  }
+  .icerik.dorduncu {
+    background-color: #FAFAFA;
+    padding-bottom: 5%;
+  }
+  .dorduncubaslik {
+    width: 100%;
+    text-align: center;
+    font-size: 5vw;
+    color: #000;
+    font-weight: 700;
+    float: left;
+    position: relative;
+    animation: 1s ease-out 0s 1 slideInFromBottom;
+    margin-top: 5%;
+  }
+  .dortresimtutucu {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .dortresimuclu {
+    width: 92%;
+    float: left;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: #FFF;
+    -webkit-box-shadow: 0px 0px 34px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 34px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 34px -13px rgba(0, 0, 0, 0.75);
+    padding-bottom: 10px;
+    margin-top: 5%;
+  }
+  .dortresim {
+    width: 100%;
+    height: 220px;
+    background-image: url(../images/participant1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dortyazi {
+    width: 100%;
+    text-align: center;
+  }
+  .dortyazibaslik {
+    font-weight: 700;
+    font-size: 4vw;
+    width: 100%;
+    margin: 10px 0 10px 0;
+  }
+  .dortyaziyazi {
+    font-weight: 700;
+    font-size: 3vw;
+    width: 100%;
+    margin: 10px 0 10px 0;
+  }
+  .icerik.besinci {
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background-color: #FFF;
+  }
+  .besyarim {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .bessag {
+    width: 100%;
+    float: left;
+    overflow-y: scroll;
+    max-height: 460px;
+    overflow-x: hidden
+  }
+  .besyarimbaslik {
+    width: 100%;
+    text-align: center;
+    font-size: 6vw;
+    color: #000;
+    font-weight: 700;
+    animation: 1s ease-out 0s 1 slideInFromBottom;
+  }
+  .schedulekutu {
+    width: 100%;
+    border-bottom: 2px solid #DDD;
+    padding: 10px;
+  }
+  .schsatir1 {
+    width: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #F00;
+    font-size: 26px;
+    float: left;
+  }
+  .schsatir2 {
+    width: 86%;
+    float: left;
+    color: #333;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+  }
+  .schsatir2.bos {
+    margin-left: 14%;
+  }
+  .partnerkutu {
+    width: 48%;
+    margin: 1%;
+    float: left;
+    -webkit-box-shadow: 6px 6px 6px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 6px 6px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 6px 6px -7px rgba(0, 0, 0, 0.75);
+    transition: all ease 1s;
+    overflow: hidden;
+  }
+  .partnerresimler {
+    transition: all ease 1s;
+    filter: saturate(0%) opacity(50%);
+  }
+  .partnerkutu:hover .partnerresimler {
+    transform: scale(1.2);
+    filter: saturate(100%) opacity(100%);
+  }
+  .footer-container {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Karla', sans-serif;
+    padding: 1%;
+  }
+  .footer-four {
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+  }
+  .footer-baslik {
+    width: 100%;
+    font-weight: 700;
+    font-size: 6vw;
+    margin-top: 2%;
+  }
+  .footer-yazi {
+    width: 100%;
+    font-weight: 400;
+    font-size: 4vw;
+    color: grey;
+    margin-top: 2%;
+  }
+  .footer-bottom .footer-container {
+    font-size: 3vw;
+    padding: 1%;
+  }
+  .acilirmenu {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background-color: #262528;
+    height: 0px;
+    transition: all ease 1s;
+    background: rgb(55, 55, 55);
+    background: -moz-linear-gradient(0deg, rgba(55, 55, 55, 1) 96%, rgba(0, 0, 0, 0) 96%, rgba(42, 42, 42, 0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(55, 55, 55, 1) 96%, rgba(0, 0, 0, 0) 96%, rgba(42, 42, 42, 0) 100%);
+    background: linear-gradient(0deg, rgba(55, 55, 55, 1) 96%, rgba(0, 0, 0, 0) 96%, rgba(42, 42, 42, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#373737", endColorstr="#2a2a2a", GradientType=1);
+    overflow: hidden;
+    color: white;
+  }
+  .uzunacilir {
+    height: auto;
+  }
+  .acilir-uc {
+    width: 100%;
+    float: left;
+    padding: 10px;
+  }
+  .acilir-uc-ara {
+    display: none;
+  }
+  .menu-about-yazi-baslik {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin: 50px 0 10px 0;
+  }
+  .menu-about-yazi {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+  }
+  .stream-video-channel .videobaslik {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #000 !important;
+    font-size: 6vw;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 0;
+    font-weight: 700;
+    margin-left: 0;
+  }
+  .stream-video-channel .videobutton {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 6vw;
+    padding: 10px;
+    font-weight: 700;
+    transition: all ease 1s;
+    cursor: pointer;
+  }
+  .stream-video-channel .videobutton.tw {
+    background-color: #874ff6;
+    color: #FFF !important;
+  }
+  .stream-video-channel .videobutton.fb {
+    background-color: #1877f2;
+    color: #FFF !important;
+  }
+  .stream-video-channel .videobutton.yt {
+    background-color: #FF0000;
+    color: #FFF !important;
+  }
+  .icerik-alti-sol {
+    width: 100%;
+    float: none;
+    padding: 2%;
+  }
+  .icerik-alti-sag {
+    width: 100%;
+    float: none;
+    padding: 2%;
+  }
+  .anahaber {
+    text-align: left !important;
+    width: 70% !important;
+    float: left;
+    font-size: 6vw !important;
+  }
+  .haber-read-more {
+    width: 30% !important;
+    float: left;
+  }
+  .haberler-ana-sayfa {
+    width: 96%;
+    float: left;
+    margin: 2% 2% 0 2%;
+    color: grey;
+    border: 2px solid #D1D1D1;
+    padding: 1%;
+  }
+  .haberler-ana-resim {
+    width: 98%;
+    max-height: 40vw;
+    margin: 1%;
+    overflow: hidden;
+  }
+  .haberler-ana-baslik {
+    width: 98%;
+    font-weight: 700;
+    font-size: 6vw;
+    color: black;
+    margin: 3% 1% 1% 1%;
+  }
+  .haberler-ana-tarih {
+    width: 98%;
+    font-weight: 400;
+    font-size: 4.5vw;
+    margin: 1%;
+  }
+  .haberler-ana-yazi {
+    width: 98%;
+    font-weight: 400;
+    font-size: 5.5vw;
+    margin: 6% 1% 1% 1%;
+  }
+  .haberler-read-more-button {
+    width: 100% !important;
+    font-size: 3vw;
+  }
+  .sponsor-kutusu {
+    width: 100 %;
+    margin: 2% auto 2% auto;
+    transition: all ease 1s;
+    align-items: center;
+    overflow: hidden;
+    float: left;
+  }
+  .sponsor-kutusu:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  .about {
+    width: 100%;
+    background-image: url(../images/npp-world-stream-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 50px;
+  }
+  .about-baslik {
+    width: 100%;
+    text-align: center;
+    font-size: 8vw;
+    font-weight: 900;
+    color: white;
+  }
+  .about-baslik-iki {
+    font-size: 5vw;
+  }
+  .about-content {
+    background-image: url("../images/npp-world-about-background.png");
+    background-position: center;
+    background-repeat: repeat;
+    padding: 20px 0 20px 0;
+  }
+  .about-middle-image {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 5vw;
+    color: black;
+    font-weight: 700;
+  }
+  .about-logo {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6vw;
+  }
+  .about-dortlu {
+    width: 96%;
+    float: left;
+    text-align: center;
+    margin: 2%;
+  }
+  .about-yazi-baslik {
+    width: 100%;
+    font-size: 4.5vw;
+    font-weight: 700;
+    color: black;
+    margin: 10px 0 10px 0;
+  }
+  .about-yazi {
+    width: 100%;
+    font-size: 4vw;
+    font-weight: 400;
+    color: grey;
+  }
+  .about-middle-image.partnerss {
+    width: 100%;
+    margin: 0;
+    font-size: 6vw;
+  }
+  .partnerbg {
+    width: 100%;
+    background: rgb(227, 220, 208);
+    background: -moz-linear-gradient(0deg, rgba(227, 220, 208, 1) 0%, rgba(255, 255, 255, 1) 77%);
+    background: -webkit-linear-gradient(0deg, rgba(227, 220, 208, 1) 0%, rgba(255, 255, 255, 1) 77%);
+    background: linear-gradient(0deg, rgba(227, 220, 208, 1) 0%, rgba(255, 255, 255, 1) 77%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3dcd0", endColorstr="#ffffff", GradientType=1);
+  }
+  .partners-tekli {
+    width: 100%;
+    background: #FFFFFF;
+    margin: 30px 0 30px 0;
+  }
+  .partners-tekli .sol-resim {
+    width: 100%;
+    float: left;
+    margin-right: 0;
+  }
+  .partners-tekli .sag-yazi {
+    width: 96%;
+    float: left;
+    padding: 2%;
+  }
+  .sag-yazi .baslik {
+    width: 100%;
+    font-weight: 700;
+    font-size: 6vw;
+    color: black;
+    text-align: center;
+  }
+  .sag-yazi .baglanti {
+    width: 100%;
+    font-weight: 400;
+    font-size: 4vw;
+    color: grey;
+    margin: 20px 0 20px 0;
+    transition: all ease 1s;
+    text-decoration: none;
+  }
+  .sag-yazi .yazi {
+    width: 96%;
+    font-weight: 400;
+    font-size: 5vw;
+    padding: 2%;
+    color: grey;
+  }
+  .sag-yazi .baglanti:hover {
+    text-decoration: none;
+    color: red;
+  }
+  .readmoretop.partner-buton {
+    margin-top: 50px;
+  }
+  .partner-media-button {
+    width: 100% !important;
+    margin-top: 50px;
+  }
+  .sponsor-sayfa-kutu {
+    width: 96%;
+    border: 1px solid grey;
+    float: left;
+    margin: 2%;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 53px -22px rgba(74, 74, 57, 1);
+    -moz-box-shadow: 0px 0px 53px -22px rgba(74, 74, 57, 1);
+    box-shadow: 0px 0px 53px -22px rgba(74, 74, 57, 1);
+    background: white;
+    padding: 1%;
+  }
+  .sponsor-sayfa-kutu-resim {
+    width: 100%;
+  }
+  .sponsor-sayfa-kutu-baslik {
+    width: 100%;
+    font-weight: 700;
+    color: black;
+    font-size: 5vw;
+  }
+  .sponsor-sayfa-kutu-yazi {
+    width: 100%;
+    font-weight: 400;
+    color: grey;
+    font-size: 3vw;
+  }
+  .contact-sol {
+    width: 100%;
+    float: left;
+    margin-right: 0;
+  }
+  .contact-sag {
+    width: 100%;
+    float: left;
+  }
+  .contact-baslik {
+    width: 100%;
+    color: #333333;
+    font-weight: 700;
+    font-size: 6vw;
+  }
+  .contact-yazi {
+    width: 100%;
+    color: #333333;
+    font-weight: 400;
+    font-size: 4vw;
+    margin-top: 5%;
+    margin-bottom: 7%;
+  }
+  .contact-input {
+    width: 100%;
+    padding: 20px 10px 20px 10px;
+    border: 1px solid #BBB;
+    color: #AAA;
+    font-size: 3.5vw;
+    margin-top: 1%;
+  }
+  .contact-label {
+    width: 100%;
+    color: #AAA;
+    font-weight: 400;
+    font-size: 4vw;
+    margin-top: 4%;
+  }
+  .contact-send-button {
+    background: red;
+    color: white;
+    font-weight: 700;
+    font-size: 4.2vw;
+    border: none;
+    padding: 2%;
+    width: 96%;
+    text-align: center;
+    margin-top: 3%;
+  }
+  .contact-eposta {
+    width: 90%;
+    background: red;
+    color: white;
+    font-weight: 700;
+    font-size: 4vw;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    padding: 5% 5% 5% 5%;
+  }
+  .icerik.beauty-contest {
+    color: #FFF;
+    background-image: url("../images/npp-world-beauty-contest-header.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .beauty-baslik-buyuk {
+    width: 100%;
+    text-align: center;
+    color: #0015FF;
+    font-weight: 700;
+    font-size: 15vw;
+    margin-top: 5%;
+	  line-height: 90%;
+  }
+  .beauty-baslik-kucuk {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 7vw;
+    margin-bottom: 2%;
+  }
+  .beauty-person {
+    background: #4D1C1D;
+    padding: 50px 0 50px 0;
+  }
+  .person-uclu {
+    width: 98%;
+    float: left;
+    margin: 1%;
+  }
+  .siyah-beyaz-person {
+    filter: saturate(100%) opacity(100%);
+    transition: all ease 1s;
+  }
+  .siyah-beyaz-person:hover {
+    filter: saturate(100%) opacity(100%);
+  }
+  .person-ad-soyad {
+    width: 96%;
+    color: white;
+    font-weight: 700;
+    font-size: 11vw;
+    margin: 3%;
+  }
+  .person-tanitim-yazisi {
+    width: 94%;
+    color: white;
+    font-weight: 400;
+    font-size: 4vw;
+    margin: 3%;
+  }
+  .person-vote-button {
+    width: 170px;
+    background: red;
+    color: white;
+    font-size: 4vw;
+    font-weight: 700;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  .progress.beauty {
+    display: inline-block;
+    padding: 20px;
+    height: auto;
+    background: none;
+  }
+  .radial-progress {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .counter-tutar {
+    width: 50%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .progres-yazisi {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+  }
+	
+	
+	
+			
+	    .icerik.performers-header {
+        color: #FFF;
+        padding-top: 5%;
+        padding-bottom: 5%;
+			background-color:rgba(0, 0, 0, 0.6);
+    }
+	
+	
+	    .performers-baslik-buyuk {
+        width: 100%;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: 900;
+        font-size: 14vw;
+        margin-top: 5%;
+			text-shadow: 0px 1px 20px #000000;
+    }
+	
+		    .performers-baslik-kucuk {
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+    font-size: 5vw;
+    margin-bottom: 2%;
+    }
+	
+		    .performers-person-box {
+        width: 86%;
+        float: left;
+        margin: 2% 7% 2% 7%;
+        overflow: hidden;
+        -webkit-box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.75);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: saturate(100%) opacity(100%);
+        transition: all ease 1s;
+    }
+    .performers-person-box:hover {
+        filter: saturate(100%) opacity(100%);
+    }
+    .performers-name {
+        width: 92%;
+        margin-top: 140%;
+        color: white;
+        font-weight: 700;
+        font-size: 8vw;
+        margin-left: 8%;
+    }
+    .performers-job {
+        width: 92%;
+        margin-top: 1%;
+        color: red;
+        font-weight: 700;
+        font-size: 6vw;
+        margin-left: 8%;
+        margin-bottom: 5%;
+    }
+	
+		
+	.login-baslik-buyuk{width:100%;text-align: center;color: red;font-size: 7vw;font-weight: 700;}
+	.login-baslik-kucuk{width: 100%;text-align: center;color: dimgrey;font-size: 4vw;font-weight: 400;margin-bottom: 10px;}
+	.register-buton{width: 100%;}
+		.menudeki{background: none !important;color: white !important;font-family: 'Karla', sans-serif;padding-top: 6px !important;}
+
+    .mypage-header {
+        background: url("../images/persenlebg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 5%;
+        padding-bottom: 3%;
+
+        margin-bottom: 3%;
+    }
+	
+	    .mypage-profile-picture {
+        width: 60%;
+
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-border-radius: 8%;
+        -moz-border-radius: 8%;
+        border-radius: 8%;
+        overflow: hidden;
+        -webkit-box-shadow: 10px 10px 23px -20px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 23px -20px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 10px 23px -20px rgba(0, 0, 0, 0.75);
+
+        transition: all ease 1s;
+    }
+	
+	
+	    .mypage-profile-picture-edit {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        display: block !important;
+        transition: all 1s ease;
+    }
+	
+	
+	    .yeni-resim-ekle {
+        width: 96%;
+        background-color: red;
+        text-align: center;
+        font-weight: 700;
+        color: white;
+        padding: 2%;
+        -webkit-box-shadow: 0px 24px 24px -12px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 24px 24px -12px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 24px 24px -12px rgba(0, 0, 0, 0.75);
+        -webkit-animation: fadeEffect 1s;
+        animation: fadeEffect 1s;
+        cursor: pointer;
+    }
+	
+	
+	    .mypage-profile-top-name {
+        width: 100%;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: 700;
+        color: white;
+    }
+	
+	    .mypage-profile-top-job {
+        width: 100%;
+        text-align: center;
+        font-size: 6vw;
+        font-weight: 700;
+        color: white;
+    }
+	
+	
+	
+	    .tab {
+
+        border-bottom: 2px solid #ccc;
+        -webkit-box-shadow: 0px 10px 23px -20px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 10px 23px -20px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 10px 23px -20px rgba(0, 0, 0, 0.75);
+    }
+	
+	
+	    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 2%;
+        transition: 0.3s;
+        font-size: 5vw;
+        font-weight: 700;
+        color: gray;
+			width: 33%;
+    }
+	
+	
+	    .tab button.active {
+        border-bottom: 2px solid #577dd6;
+        color: black;
+    }
+	
+	
+	    .mypage-input-label {
+        width: 100%;
+        text-align: left;
+        color: dimgrey;
+        font-size: 6vw;;
+    }
+	
+	
+	    .mypage-input {
+         outline: 0;
+  border-width: 0 0 2px;
+  border-color: dodgerblue;
+        float: left;
+			width: 80%;
+			margin-left: 10%;
+			font-size: 5vw;
+    }
+	.countlayazi{float: left;margin-left: 10%;font-size: 4vw;}
+	.countla{
+		
+		font-size: 4vw;float: left;
+		
+		
+	}
+	
+	
+	    .mypage-submit {
+        width: 50%;
+        padding: 3%;
+        text-align: center;
+        background-color: darkgrey;
+        color: white;
+        font-weight: 700;
+        font-size: 5vw;
+        outline: none;
+        border: none;
+			margin-left: 25%;
+
+    }
+	
+	
+	 .pp-crop-back {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #000000;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* IE 8 */
+        filter: alpha(opacity=90); /* IE 5-7 */
+        -moz-opacity: 0.9; /* Netscape */
+        -khtml-opacity: 0.9; /* Safari 1.x */
+        opacity: 0.9; /* Good browsers */
+        display: none;
+    }
+    .pp-crop {
+        position: fixed;
+        z-index: 9999999999;
+        background: #FFFFFF;
+        margin: auto;
+        display: none;
+		width: 90%;
+        height: 50%;
+        top: 10%;
+		left:5%;
+
+    }
+
+    .pp-crop-img {
+        width: 100%;
+        height: 80%;
+    }
+    .pp-crop-img-ok {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #03B807;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        font-size: 6vw;
+        margin-top: 55%;
+        padding: 3%;
+        -webkit-box-shadow: 0px 24px 24px -12px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 24px 24px -12px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 24px 24px -12px rgba(0, 0, 0, 0.75);
+		cursor: pointer;
+    }
+	
+	
+	
+	    .beauty-create-header {
+        width: 100%;
+        text-align: center;
+        font-size: 5vw;
+        color: dimgray;
+        font-weight: 400;
+    }
+	
+	    .b-c-c-header-big {
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+        font-size: 6vw;
+        color: dimgray;
+    }
+    .b-c-c-header-small {
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+        font-size: 4vw;
+        color: dimgray;
+    }
+	
+	    .b-c-c-add-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #FFFFFF;
+        width: 100%;
+        height: 100%;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)"; /* IE 8 */
+        filter: alpha(opacity=00); /* IE 5-7 */
+        -moz-opacity: 0.0; /* Netscape */
+        -khtml-opacity: 0.0; /* Safari 1.x */
+        opacity: 0.0; /* Good browsers */
+        transition: all ease 1s;
+        cursor: pointer;
+			overflow: hidden;
+    }
+	
+	
+	    .resimyukleyecekinput {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)"; /* IE 8 */
+        filter: alpha(opacity=00); /* IE 5-7 */
+        -moz-opacity: 0.0; /* Netscape */
+        -khtml-opacity: 0.0; /* Safari 1.x */
+        opacity: 0.0; /* Good browsers */
+    }
+	
+	
+	.b-c-c-textarea{width: 100%;height: 20%;}
+	
+	
+	    .be-competitor-button {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3%;
+        font-size: 6vw;
+        color: white;
+        background-color: #9C0000;
+        text-align: center;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all ease 1s;
+			margin-bottom: 3%;
+    }
+	
+	   .event-baslik-kucuk {
+        width: 100%;
+        color: #747474;
+        font-size: 5vw;
+        font-weight: 700;
+        font-family: 'Karla', sans-serif;
+        margin-top: 2%;
+    }
+	
+    .performer-input {
+        width: 96%;
+        border: none;
+        outline: none;
+        font-family: 'Karla', sans-serif;
+        font-size: 5vw;
+        padding: 2%;
+    }
+	
+	.chosen-select{
+		width: 100%;
+		
+	}
+	
+	    .be-performer-button {
+        width: 100%;
+        margin: 3% 0 1% 0;
+        background: #960C0F;
+        border: none;
+        outline: none;
+        color: white;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: 700;
+    }
+	
+	.performer-img-change{display: block;width: 100%;text-align: center;font-size: 4vw;}
+	.event-gorsel-ustu {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(255, 62, 79, 0.6);
+        color: white;
+        font-weight: 700;
+        width: 90%;
+        margin-left: 5%;
+        padding: 2%;
+    }
+	
+	    .event-sol {
+        background: #f6f6f6;
+    }
+		 .sosyal-medya-baslik {
+        width: 100%;
+        font-size: 5vw;
+        color: white;
+        font-weight: 700;
+    }
+	
+	    .beauty-sosyaller {
+        color: white;
+        font-size: 4vw;
+        font-weight: 400;
+        margin-top: 1%;
+    }
+	
+
+	
+	    .person-vote-button-pasif {
+        background: grey !important;
+        width: 170px;
+        color: white;
+        font-size: 4vw;
+        font-weight: 700;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+    }
+	
+		    .ikinciresimlogosu {
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        width: 70%;
+    }
+	.topribbon{width: 100%;text-align: center;color: white;background: #8B090B;padding: 10px;position: fixed;top: 0;z-index: 9999999999;display: none;}
+	
+	
+	    .ribbonlutop {
+        margin-top: 44px !important;
+    }
+    #deprempopup {
+        position: fixed;
+        width: 90%;
+        left: 5%;
+        top: 30%;
+        background: #FFFFFF;
+        border: 1px solid #787878;
+        padding: 3%;
+        z-index: 99999999;
+        height: 250px;
+		animation: 1s ease-out 0s 1 slideInFromBottom;
+		text-align: center;-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;display: none;
+    }
+	.popupclose{position: absolute;top: -19px;right: -16px;background:#FF0004;text-align: center;color: white;font-weight: 700;padding: 7px;border-radius: 50%;width: 37px;cursor: pointer;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */}
+	.donatebuton{width: 150px;margin-left: auto;margin-right: auto;text-align: center;font-weight: 700;color: white;background: #FF0004;padding: 5px;margin-top: 15px;}
+	
+}

@@ -1,0 +1,5 @@
+User-agent:*
+Disallow:/admin.php/
+Disallow:/logout.php/
+Noindex:/admin.php/
+Sitemap:https//npp.world/sitemap.xml
